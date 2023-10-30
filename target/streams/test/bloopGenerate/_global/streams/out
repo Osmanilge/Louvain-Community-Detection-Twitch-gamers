@@ -1,0 +1,4 @@
+[debug] [louvain-community-detection-twitch-gamers-test] Classpath dependencies List()
+[debug] [louvain-community-detection-twitch-gamers-test] Dependencies from configurations List(louvain-community-detection-twitch-gamers)
+[debug] Bloop wrote the configuration of project 'louvain-community-detection-twitch-gamers-test' to '/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.bloop/louvain-community-detection-twitch-gamers-test.json'
+[success] Generated .bloop/louvain-community-detection-twitch-gamers-test.json

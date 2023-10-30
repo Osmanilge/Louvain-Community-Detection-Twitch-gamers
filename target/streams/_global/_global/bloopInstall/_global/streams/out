@@ -1,0 +1,263 @@
+[error] Couldn't run bloopGenerate. Cause: Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+[error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/osmanilge/Desktop/hello-world/,hello-world)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-core_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.1/spark-core_2.13-3.0.1.pom
+[error] Error downloading org.apache.spark:spark-graphx_2.13:3.0.1
+[error]   Not found
+[error]   Not found
+[error]   not found: /home/osmanilge/.ivy2/localorg.apache.spark/spark-graphx_2.13/3.0.1/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.13/3.0.1/spark-graphx_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)

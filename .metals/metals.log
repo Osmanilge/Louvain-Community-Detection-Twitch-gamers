@@ -1,0 +1,86 @@
+2023.10.31 00:24:55 INFO  Started: Metals version 1.1.0 in folders '/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers' for client Visual Studio Code 1.83.1.
+2023.10.31 00:24:56 WARN  Build server is not auto-connectable.
+2023.10.31 00:24:58 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.10.31 00:25:01 INFO  no build target found for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.31 00:25:02 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16651924154415513829/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.31 00:25:03 INFO  time: code lens generation in 3.58s
+2023.10.31 00:25:03 INFO  [info] welcome to sbt 1.9.6 (Ubuntu Java 11.0.20.1)
+2023.10.31 00:25:05 INFO  [info] loading settings for project louvain-community-detection-twitch-gamers-build-build from metals.sbt ...
+2023.10.31 00:25:05 INFO  [info] loading project definition from /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/project
+2023.10.31 00:25:07 INFO  [info] loading settings for project louvain-community-detection-twitch-gamers-build from metals.sbt ...
+2023.10.31 00:25:07 INFO  [info] loading project definition from /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project
+2023.10.31 00:25:09 INFO  [success] Generated .bloop/louvain-community-detection-twitch-gamers-build.json
+2023.10.31 00:25:09 INFO  [warn] Removed stale /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.bloop/hello-world-build.json
+2023.10.31 00:25:09 INFO  [success] Total time: 2 s, completed Oct 31, 2023, 12:25:09 AM
+2023.10.31 00:25:11 INFO  [info] loading settings for project louvain-community-detection-twitch-gamers from build.sbt ...
+2023.10.31 00:25:11 INFO  [info] set current project to hello-world (in build file:/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/)
+2023.10.31 00:25:12 INFO  [success] Generated .bloop/louvain-community-detection-twitch-gamers.json
+2023.10.31 00:25:12 INFO  [success] Generated .bloop/louvain-community-detection-twitch-gamers-test.json
+2023.10.31 00:25:12 INFO  [success] Total time: 1 s, completed Oct 31, 2023, 12:25:12 AM
+2023.10.31 00:25:13 INFO  time: ran 'sbt bloopInstall' in 10s
+2023.10.31 00:25:13 INFO  Attempting to connect to the build server...
+2023.10.31 00:25:13 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:25:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:25:13 INFO  Attempting to connect to the build server...
+2023.10.31 00:25:13 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:25:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:25:13 INFO  time: Connected to build server in 1s
+2023.10.31 00:25:13 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.31 00:25:16 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:19 INFO  time: indexed workspace in 4.65s
+2023.10.31 00:25:19 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.10.31 00:25:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 1.95s
+2023.10.31 00:25:33 INFO  Disconnecting from Bloop session...
+2023.10.31 00:25:33 INFO  Shut down connection with build server.
+2023.10.31 00:25:33 INFO  Shut down connection with build server.
+2023.10.31 00:25:33 INFO  Attempting to connect to the build server...
+2023.10.31 00:25:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:25:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:25:33 INFO  Attempting to connect to the build server...
+2023.10.31 00:25:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:25:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:25:33 INFO  time: Connected to build server in 0.14s
+2023.10.31 00:25:33 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.31 00:25:35 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:35 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:35 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:35 INFO  time: indexed workspace in 1.48s
+2023.10.31 00:25:51 INFO  Disconnecting from Bloop session...
+2023.10.31 00:25:51 INFO  Shut down connection with build server.
+2023.10.31 00:25:51 INFO  Shut down connection with build server.
+2023.10.31 00:25:51 INFO  Deleted directories inside .bloop
+2023.10.31 00:25:51 INFO  Attempting to connect to the build server...
+2023.10.31 00:25:51 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:25:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:25:54 INFO  Attempting to connect to the build server...
+2023.10.31 00:25:54 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:25:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:25:54 INFO  time: Connected to build server in 3.42s
+2023.10.31 00:25:54 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.31 00:25:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:25:56 INFO  time: indexed workspace in 1.36s
+2023.10.31 00:25:57 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.10.31 00:26:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 3.33s
+2023.10.31 00:26:04 INFO  Disconnecting from Bloop session...
+2023.10.31 00:26:04 INFO  Shut down connection with build server.
+2023.10.31 00:26:04 INFO  Shut down connection with build server.
+2023.10.31 00:26:04 INFO  Attempting to connect to the build server...
+2023.10.31 00:26:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:26:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:26:04 INFO  Attempting to connect to the build server...
+2023.10.31 00:26:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.10.31 00:26:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.10.31 00:26:04 INFO  time: Connected to build server in 0.1s
+2023.10.31 00:26:04 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.31 00:26:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:26:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:26:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.31 00:26:06 INFO  time: indexed workspace in 1.5s
+2023.10.31 00:26:32 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.10.31 00:26:33 INFO  time: compiled louvain-community-detection-twitch-gamers in 1.19s
+2023.10.31 00:26:42 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.10.31 00:26:43 INFO  time: compiled louvain-community-detection-twitch-gamers in 1.02s
