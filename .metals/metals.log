@@ -264,3 +264,5 @@ Exception in thread "pool-5-thread-2" java.lang.InterruptedException
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.03 20:10:41 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:10:41 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.61s

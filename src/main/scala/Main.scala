@@ -16,7 +16,7 @@ object Main extends App {
         Edge(parts(0).toLong, parts(1).toLong, 1)
       }
 
-    val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/large_twitch_features.csv")
+    val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("src/large_twitch_features.csv")
       .filter(line => !line.startsWith("views"))
       .map { line =>
         val parts = line.split(",")
