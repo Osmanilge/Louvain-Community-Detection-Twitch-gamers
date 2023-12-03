@@ -9,14 +9,14 @@ object Main extends App {
     val sc = new SparkContext(sparkConf)
 
     //Read edges from the CSV file and parse them into Edge objects
-    val edgesRDD: RDD[Edge[Int]] = sc.textFile("src/large_twitch_edges.csv")
+    val edgesRDD: RDD[Edge[Int]] = sc.textFile("src/sampleFeatures.csv")
       .filter(line => !line.startsWith("numeric_id_1"))
       .map { line =>
         val parts = line.split(",")
         Edge(parts(0).toLong, parts(1).toLong, 1)
       }
 
-    val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("src/large_twitch_features.csv")
+    val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("src/sampleEdges.csv")
       .filter(line => !line.startsWith("views"))
       .map { line =>
         val parts = line.split(",")
@@ -38,7 +38,7 @@ object Main extends App {
       
     // Graph'ı oluşturma
     val graph = Graph(verticesRDD, edgesRDD)
-/*
+
 // Düğümleri (vertices) yazdırma
 println("Düğümler (Vertices):")
 graph.vertices.collect().foreach { case (id, vertex) =>
@@ -49,6 +49,6 @@ graph.vertices.collect().foreach { case (id, vertex) =>
 println("Kenarlar (Edges):")
 graph.edges.collect().foreach { edge =>
   println(s"Kaynak: ${edge.srcId}, Hedef: ${edge.dstId}, Kenar: ${edge.attr}")
-}*/
+}
     Louvain.sayHello()
 }

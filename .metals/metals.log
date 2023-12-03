@@ -266,3 +266,39 @@ Exception in thread "pool-5-thread-2" java.lang.InterruptedException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 2023.12.03 20:10:41 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
 2023.12.03 20:10:41 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.61s
+2023.12.03 20:19:35 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:19:35 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.56s
+2023.12.03 20:21:10 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:21:10 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.66s
+2023.12.03 20:21:14 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:41: error: unclosed comment
+/*
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 20:21:17 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:21:17 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.85s
