@@ -302,3 +302,707 @@ scala.meta.tokenizers.TokenizeException: <input>:41: error: unclosed comment
 
 2023.12.03 20:21:17 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
 2023.12.03 20:21:17 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.85s
+2023.12.03 20:28:42 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:28:42 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.63s
+2023.12.03 20:29:32 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:29:32 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 20:29:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:39 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: unclosed comment
+    val graph = Graph(/*, edgesRDD)
+                      ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 20:29:39 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:39 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:41 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:41 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: unclosed comment
+    val graph = Graph(/*verticesRDD, edgesRDD)
+                      ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 20:29:53 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:29:56 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:01 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:02 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:10 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:28 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:31 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:40 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:30:41 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:30:41 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.5s
+2023.12.03 20:31:02 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:42: error: unclosed comment
+/*// Düğümleri (vertices) yazdırma
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 20:31:09 WARN  Using indexes to guess the definition of graph
+2023.12.03 20:31:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:31:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.61s
+2023.12.03 20:31:34 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:31:34 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.59s
+2023.12.03 20:32:20 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:32:20 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.52s
+2023.12.03 20:33:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:33:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.51s
+2023.12.03 20:35:04 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:35:04 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 20:35:05 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:35:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:35:50 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:02 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:04 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:36:04 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 20:36:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:05 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:36:05 INFO  time: compiled louvain-community-detection-twitch-gamers in 89ms
+2023.12.03 20:36:05 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:27 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:36:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 96ms
+2023.12.03 20:36:27 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:28 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:29 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:36:29 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:36:29 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 20:36:29 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:37:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:37:34 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:37:50 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:37:52 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:37:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:37:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 20:37:53 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:37:58 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:12 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:15 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:38:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:15 INFO  time: compiled louvain-community-detection-twitch-gamers in 94ms
+2023.12.03 20:38:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:34 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:38:35 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:39:52 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:39:57 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:42:41 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:05 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:22 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:23 WARN  Using indexes to guess the definition of nodeWeights
+2023.12.03 20:51:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:24 WARN  Using indexes to guess the definition of Iterator
+2023.12.03 20:51:24 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Using indexes to guess the definition of nodeWeights
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:29 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:30 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:37 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:46 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:51:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 63ms
+2023.12.03 20:51:50 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:51:52 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:10 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:11 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:12 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:52:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 94ms
+2023.12.03 20:52:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:21 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:21 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:21 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:21 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:52:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 94ms
+2023.12.03 20:52:22 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:23 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:52:23 INFO  time: compiled louvain-community-detection-twitch-gamers in 96ms
+2023.12.03 20:52:24 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 WARN  Using indexes to guess the definition of None
+2023.12.03 20:53:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:52:59 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:52:59 INFO  time: compiled louvain-community-detection-twitch-gamers in 70ms
+2023.12.03 20:53:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:53:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:53:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:53:06 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:53:06 INFO  time: compiled louvain-community-detection-twitch-gamers in 82ms
+2023.12.03 20:53:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:53:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:53:09 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:10 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:13 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed comment
+/*// Düğümleri (vertices) yazdırma
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 20:54:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:17 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:20 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed comment
+    /*val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("src/sampleEdges.csv")
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 20:54:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:24 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:54:24 INFO  time: compiled louvain-community-detection-twitch-gamers in 89ms
+2023.12.03 20:54:24 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:54:30 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:57:35 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 20:57:35 INFO  time: compiled louvain-community-detection-twitch-gamers in 88ms
+2023.12.03 20:57:36 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 20:59:52 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Using indexes to guess the definition of _1
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:03 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:04 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:00:04 INFO  time: compiled louvain-community-detection-twitch-gamers in 97ms
+2023.12.03 21:00:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:00:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:01:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:01:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:01:50 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:01:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:01:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 98ms
+2023.12.03 21:01:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:08 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:09 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:26 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:26 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:27 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:28 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:28 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:28 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:30 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:30 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:33 WARN  Using indexes to guess the definition of RDD
+2023.12.03 21:02:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:34 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:02:34 INFO  time: compiled louvain-community-detection-twitch-gamers in 87ms
+2023.12.03 21:02:35 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:38 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:43 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:43 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:46 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:46 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:55 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:02:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:03:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:04:06 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:04:07 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:04:07 INFO  time: compiled louvain-community-detection-twitch-gamers in 84ms
+2023.12.03 21:04:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+Dec 03, 2023 9:04:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2863
+2023.12.03 21:04:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:04:17 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:01 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:06:54 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:07:16 INFO  time: compiled louvain-community-detection-twitch-gamers in 93ms
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:07:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:01 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:04 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:07 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:09 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:11 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:12 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:08:12 INFO  time: compiled louvain-community-detection-twitch-gamers in 85ms
+2023.12.03 21:08:12 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:23 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:24 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:08:24 INFO  time: compiled louvain-community-detection-twitch-gamers in 95ms
+2023.12.03 21:08:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:27 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:27 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:08:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 84ms
+2023.12.03 21:08:27 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:08:36 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+Dec 03, 2023 9:09:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3064
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:14 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:15 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:09:15 INFO  time: compiled louvain-community-detection-twitch-gamers in 93ms
+2023.12.03 21:09:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:16 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:09:16 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.03 21:09:16 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:09:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:16 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:16 INFO  time: compiled louvain-community-detection-twitch-gamers in 64ms
+2023.12.03 21:09:17 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:22 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:09:22 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:10:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:10:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:10:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:10:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:10:32 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:10:33 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:10:33 INFO  time: compiled louvain-community-detection-twitch-gamers in 82ms
+2023.12.03 21:10:33 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:11:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:11:44 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:49 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:12:57 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:42 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:44 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:46 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:13:47 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:47 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:13:59 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:14:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 86ms
+2023.12.03 21:14:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:48 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:51 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:14:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.63s
+2023.12.03 21:15:32 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:15:32 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.64s
+2023.12.03 21:19:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:00 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 21:19:01 WARN  Using indexes to guess the definition of Int
+2023.12.03 21:19:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.71s
+2023.12.03 21:19:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:19:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.54s
+2023.12.03 21:39:04 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:39:04 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 21:39:07 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:39:07 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 21:39:56 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:39:56 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 21:39:56 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:39:56 INFO  time: compiled louvain-community-detection-twitch-gamers in 69ms
+2023.12.03 21:40:12 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:40:12 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.15s
+2023.12.03 21:40:28 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:40:28 INFO  time: compiled louvain-community-detection-twitch-gamers in 64ms
+2023.12.03 21:40:44 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:40:44 INFO  time: compiled louvain-community-detection-twitch-gamers in 57ms
+2023.12.03 21:40:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:40:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 64ms
+2023.12.03 21:40:51 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:40:51 INFO  time: compiled louvain-community-detection-twitch-gamers in 61ms
+2023.12.03 21:41:11 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:41:11 INFO  time: compiled louvain-community-detection-twitch-gamers in 56ms
+2023.12.03 21:42:30 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:42:30 INFO  time: compiled louvain-community-detection-twitch-gamers in 64ms
+2023.12.03 21:42:38 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:42:38 INFO  time: compiled louvain-community-detection-twitch-gamers in 53ms
+2023.12.03 21:42:40 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:42:40 INFO  time: compiled louvain-community-detection-twitch-gamers in 69ms
+2023.12.03 21:42:40 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:42:40 INFO  time: compiled louvain-community-detection-twitch-gamers in 17ms
+2023.12.03 21:42:42 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:42:42 INFO  time: compiled louvain-community-detection-twitch-gamers in 78ms
+2023.12.03 21:43:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:43:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 54ms
+2023.12.03 21:43:04 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:43:04 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 21:43:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:43:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.03 21:43:45 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:43:45 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.15s
+2023.12.03 21:43:47 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:43:47 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.03 21:44:07 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:44:07 INFO  time: compiled louvain-community-detection-twitch-gamers in 51ms
+2023.12.03 21:44:07 WARN  Using indexes to guess the definition of map
+2023.12.03 21:44:07 WARN  Using indexes to guess the definition of nodeDegrees
+something's wrong: no file:///home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala in () => <error>RangePosition(file:///home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala, 2659, 2661, 3151)
+something's wrong: no file:///home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala in (Long, <error>)RangePosition(file:///home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala, 2659, 2659, 2674)
+2023.12.03 21:44:17 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:44:17 INFO  time: compiled louvain-community-detection-twitch-gamers in 59ms
+2023.12.03 21:44:22 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:44:22 INFO  time: compiled louvain-community-detection-twitch-gamers in 93ms
+2023.12.03 21:44:45 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:44:45 INFO  time: compiled louvain-community-detection-twitch-gamers in 86ms
+2023.12.03 21:44:46 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:44:46 INFO  time: compiled louvain-community-detection-twitch-gamers in 53ms
+2023.12.03 21:44:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:44:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 54ms
+Dec 03, 2023 9:45:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 3048, count -1, length 3161
+2023.12.03 21:45:36 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:45:36 INFO  time: compiled louvain-community-detection-twitch-gamers in 77ms
+2023.12.03 21:45:36 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:45:36 INFO  time: compiled louvain-community-detection-twitch-gamers in 20ms
+2023.12.03 21:45:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:45:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 21:45:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:45:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 62ms
+2023.12.03 21:45:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:45:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 57ms
+2023.12.03 21:45:54 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:45:54 INFO  time: compiled louvain-community-detection-twitch-gamers in 67ms
+2023.12.03 21:46:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 21:46:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 64ms
+2023.12.03 21:46:10 WARN  Using indexes to guess the definition of Long
+2023.12.03 21:46:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 21:46:20 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:20 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 21:46:24 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:24 INFO  time: compiled louvain-community-detection-twitch-gamers in 97ms
+2023.12.03 21:46:24 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:24 INFO  time: compiled louvain-community-detection-twitch-gamers in 62ms
+2023.12.03 21:46:25 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:25 INFO  time: compiled louvain-community-detection-twitch-gamers in 67ms
+2023.12.03 21:46:48 WARN  Using indexes to guess the definition of nodeIODegree
+2023.12.03 21:46:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 21:46:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 21:46:51 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:51 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.03 21:46:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 54ms
+2023.12.03 21:46:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 53ms
+2023.12.03 21:46:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 52ms
+2023.12.03 21:46:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 53ms
+2023.12.03 21:46:54 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:46:54 INFO  time: compiled louvain-community-detection-twitch-gamers in 52ms
+2023.12.03 21:47:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:47:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 21:47:49 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:47:49 INFO  time: compiled louvain-community-detection-twitch-gamers in 84ms
+2023.12.03 21:47:49 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:47:49 INFO  time: compiled louvain-community-detection-twitch-gamers in 54ms
+2023.12.03 21:47:51 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:47:51 INFO  time: compiled louvain-community-detection-twitch-gamers in 51ms
+2023.12.03 21:47:57 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:47:57 INFO  time: compiled louvain-community-detection-twitch-gamers in 97ms
+2023.12.03 21:47:57 WARN  Using indexes to guess the definition of RDD
+2023.12.03 21:47:57 WARN  Using indexes to guess the definition of nodeIODegree
+2023.12.03 21:48:01 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:48:01 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.64s
+2023.12.03 21:49:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:49:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 97ms
+2023.12.03 21:50:03 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 21:50:03 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 59ms
+2023.12.03 21:50:08 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:08 INFO  time: compiled louvain-community-detection-twitch-gamers in 88ms
+Dec 03, 2023 9:50:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4655
+2023.12.03 21:50:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:26 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 21:50:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 74ms
+2023.12.03 21:50:27 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 55ms
+2023.12.03 21:50:27 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 70ms
+2023.12.03 21:50:27 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 92ms
+Dec 03, 2023 9:50:28 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.12.03 21:50:29 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:50:29 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 21:51:02 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:51:02 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.68s
+2023.12.03 21:52:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:52:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.64s
+2023.12.03 21:52:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:52:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.55s
+2023.12.03 21:52:18 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:52:18 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.67s
+2023.12.03 21:54:55 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:54:55 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.57s
+2023.12.03 21:56:27 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:56:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.58s
+2023.12.03 21:58:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 21:58:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.92s
