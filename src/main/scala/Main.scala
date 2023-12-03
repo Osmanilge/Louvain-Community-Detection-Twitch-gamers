@@ -5,6 +5,7 @@ import org.apache.spark.graphx.Graph.graphToGraphOps
 import org.apache.spark.rdd.RDD
 import scala.reflect.ClassTag
 import java.io.PrintWriter
+import org.apache.spark.broadcast.Broadcast
 object Main{
   def loadTheGraph(sc: SparkContext): Graph[(Int, Int, Long, String, String, Long, Int, String, Int), Long] = {
     //Read edges from the CSV file and parse them into Edge objects
@@ -59,6 +60,9 @@ object Main{
     }*/
 
     val louvainBasedGraph = Louvain.generateLouvainGraph(graph)
+
+    var minProgress = 1//parameters
+
     val louvainBasedGraphCached = louvainBasedGraph.cache()
 
     val nodeDegrees = louvainBasedGraphCached.aggregateMessages[(Long, Long)](
@@ -76,5 +80,131 @@ object Main{
     var mBroadcasted = sc.broadcast(m)
     println(s"Toplam Edge Sayısı: $m")
 
+
+    var communityRDD = louvainBasedGraphCached.aggregateMessages(sendCommunityInfo, mergeCommunityInfo).cache()
+    var activeMessages = communityRDD.count() // materializes the graph
+
+    var updated = 0L - minProgress
+    var even = false  
+    var count = 0
+    val maxIter = 100000 
+    var stop = 0
+    var updatedLastPhase = 0L
+
+    do{
+
+    }while(true)
+
+  }
+
+
+
+  def louvainVertJoin(louvainGraph: Graph[LouvainVertex, Long], msgRDD: VertexRDD[Map[(Long, Long), Long]], m: Broadcast[Long], even: Boolean) = {
+
+    // innerJoin[U, VD2](other: RDD[(VertexId, U)])(f: (VertexId, VD, U) => VD2): VertexRDD[VD2]
+    louvainGraph.vertices.innerJoin(msgRDD)((vid, louvainVertex, communityMessages) => {
+
+      var bestCommunity = louvainVertex.communityType
+      val startingCommunityId = bestCommunity
+      var maxDeltaQ = BigDecimal(0.0);
+      var bestSigmaTot = 0L
+
+      // VertexRDD[scala.collection.immutable.Map[(Long, Long),Long]]
+      // e.g. (1,Map((3,10) -> 2, (6,4) -> 2, (2,8) -> 2, (4,8) -> 2, (5,8) -> 2))
+      // e.g. communityId:3, sigmaTotal:10, communityEdgeWeight:2
+      communityMessages.foreach({ case ((communityId, sigmaTotal), communityEdgeWeight) =>
+        val deltaQ = q(
+          startingCommunityId,
+          communityId,
+          sigmaTotal,
+          communityEdgeWeight,
+          louvainVertex.degreeOfNode,
+          louvainVertex.communityInDegree,
+          m.value)
+
+        //println(" communtiy: "+communityId+" sigma:"+sigmaTotal+"
+        //edgeweight:"+communityEdgeWeight+" q:"+deltaQ)
+        if (deltaQ > maxDeltaQ || (deltaQ > 0 && (deltaQ == maxDeltaQ &&
+          communityId > bestCommunity))) {
+          maxDeltaQ = deltaQ
+          bestCommunity = communityId
+          bestSigmaTot = sigmaTotal
+        }
+      })
+
+      // only allow changes from low to high communties on even cyces and
+      // high to low on odd cycles
+      if (louvainVertex.communityType != bestCommunity && ((even &&
+        louvainVertex.communityType > bestCommunity) || (!even &&
+        louvainVertex.communityType < bestCommunity))) {
+        //println("  "+vid+" SWITCHED from "+vdata.community+" to "+bestCommunity)
+        louvainVertex.communityType = bestCommunity
+        louvainVertex.communityType = bestSigmaTot
+        louvainVertex.changed = true
+      }
+      else {
+        louvainVertex.changed = false
+      }
+
+      if (louvainVertex == null)
+        println("vdata is null: " + vid)
+
+      louvainVertex
+    })
+  }
+
+  /**
+    * Returns the change in modularity that would result from a vertex
+    * moving to a specified community.
+    */
+  def q(
+         currCommunityId: Long,
+         testCommunityId: Long,
+         testSigmaTot: Long,
+         edgeWeightInCommunity: Long,
+         nodeWeight: Long,
+         internalWeight: Long,
+         totalEdgeWeight: Long): BigDecimal = {
+
+    val isCurrentCommunity = currCommunityId.equals(testCommunityId)
+    val M = BigDecimal(totalEdgeWeight)
+    val k_i_in_L = if (isCurrentCommunity) edgeWeightInCommunity + internalWeight else edgeWeightInCommunity
+    val k_i_in = BigDecimal(k_i_in_L)
+    val k_i = BigDecimal(nodeWeight + internalWeight)
+    val sigma_tot = if (isCurrentCommunity) BigDecimal(testSigmaTot) - k_i else BigDecimal(testSigmaTot)
+
+    var deltaQ = BigDecimal(0.0)
+
+    if (!(isCurrentCommunity && sigma_tot.equals(BigDecimal.valueOf(0.0)))) {
+      deltaQ = k_i_in - (k_i * sigma_tot / M)
+      //println(s"      $deltaQ = $k_i_in - ( $k_i * $sigma_tot / $M")
+    }
+
+    deltaQ
+  }
+
+  
+  private def sendCommunityInfo(edgeTrip: EdgeContext[LouvainVertex, Long, Map[(Long, Long), Long]]) = {
+    val m1 = (edgeTrip.dstId,Map((edgeTrip.srcAttr.communityType,edgeTrip.srcAttr.communityTotalDegree)->edgeTrip.attr))
+	  val m2 = (edgeTrip.srcId,Map((edgeTrip.dstAttr.communityType,edgeTrip.dstAttr.communityTotalDegree)->edgeTrip.attr))
+	  Iterator(m1, m2)    
+  }
+  
+  
+  
+  /**
+   *  Merge neighborhood community data into a single message for each vertex
+   */
+  private def mergeCommunityInfo(m1:Map[(Long,Long),Long],m2:Map[(Long,Long),Long]) ={
+    val newMap = scala.collection.mutable.HashMap[(Long,Long),Long]()
+    m1.foreach({case (k,v)=>
+      if (newMap.contains(k)) newMap(k) = newMap(k) + v
+      else newMap(k) = v
+    })
+    m2.foreach({case (k,v)=>
+      if (newMap.contains(k)) newMap(k) = newMap(k) + v
+      else newMap(k) = v
+    })
+    newMap.toMap
   }
 }

@@ -1452,3 +1452,306 @@ WARNING: Unmatched cancel notification for request id 1182
 2023.12.03 23:29:20 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.73s
 2023.12.03 23:29:38 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
 2023.12.03 23:29:38 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.57s
+2023.12.04 00:12:22 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:12:22 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:12:38 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:12:38 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+Dec 04, 2023 12:13:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2145
+2023.12.04 00:13:38 WARN  Using indexes to guess the definition of Iterator
+2023.12.04 00:13:38 WARN  Using indexes to guess the definition of m2
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2155
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2156
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2157
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2158
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2160
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2162
+Dec 04, 2023 12:13:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2163
+Dec 04, 2023 12:13:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2210
+Dec 04, 2023 12:13:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2217
+2023.12.04 00:13:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:13:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:14:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:14:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+Dec 04, 2023 12:14:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2350
+2023.12.04 00:14:26 WARN  Using indexes to guess the definition of communityTotalDegree
+2023.12.04 00:14:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:14:26 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.76s
+2023.12.04 00:14:58 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:14:58 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.66s
+2023.12.04 00:17:07 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:07 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:17:07 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:07 INFO  time: compiled louvain-community-detection-twitch-gamers in 88ms
+2023.12.04 00:17:16 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:16 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:17:16 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:17 INFO  time: compiled louvain-community-detection-twitch-gamers in 85ms
+2023.12.04 00:17:19 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:19 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:17:20 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:17:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:17:23 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:23 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.21s
+2023.12.04 00:17:23 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:23 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+Dec 04, 2023 12:17:23 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.12.04 00:17:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:26 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.04 00:17:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:26 INFO  time: compiled louvain-community-detection-twitch-gamers in 67ms
+2023.12.04 00:17:39 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:17:39 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.04 00:18:23 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:18:25 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:18:25 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:18:25 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:19:05 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:19:05 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:19:05 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.04 00:19:06 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:19:05 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:19:05 INFO  time: compiled louvain-community-detection-twitch-gamers in 57ms
+2023.12.04 00:19:06 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:19:11 INFO  Shutting down server
+2023.12.04 00:19:11 INFO  shutting down Metals
+2023.12.04 00:19:11 INFO  Shut down connection with build server.
+2023.12.04 00:19:11 INFO  Shut down connection with build server.
+2023.12.04 00:19:11 INFO  Exiting server
+2023.12.04 00:19:20 INFO  Started: Metals version 1.1.0 in folders '/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers' for client Visual Studio Code 1.83.1.
+2023.12.04 00:19:21 INFO  Attempting to connect to the build server...
+2023.12.04 00:19:21 INFO  skipping build import with status 'Installed'
+2023.12.04 00:19:21 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.12.04 00:19:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.12.04 00:19:21 INFO  Attempting to connect to the build server...
+2023.12.04 00:19:21 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.12.04 00:19:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.12.04 00:19:21 INFO  time: Connected to build server in 0.43s
+2023.12.04 00:19:21 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 00:19:24 INFO  no build target found for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 00:19:25 INFO  no build target found for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 00:19:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.12.04 00:19:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.12.04 00:19:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.12.04 00:19:29 INFO  time: indexed workspace in 5.72s
+2023.12.04 00:19:30 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:19:30 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.5s
+Dec 04, 2023 12:19:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.12.04 00:19:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:19:32 INFO  time: compiled louvain-community-detection-twitch-gamers in 1.31s
+Dec 04, 2023 12:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Dec 04, 2023 12:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.12.04 00:19:32 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+Dec 04, 2023 12:19:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2023.12.04 00:19:32 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.36s
+2023.12.04 00:19:32 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+Dec 04, 2023 12:19:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Dec 04, 2023 12:19:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Dec 04, 2023 12:19:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2023.12.04 00:19:32 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.18s
+2023.12.04 00:19:34 WARN  Using indexes to guess the definition of sendCommunityInfo
+Dec 04, 2023 12:20:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2023.12.04 00:20:46 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:20:46 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:20:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:20:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:21:24 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:21:24 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:22:14 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:14 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.16s
+2023.12.04 00:22:14 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:14 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.15s
+2023.12.04 00:22:22 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:22 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:22:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:26 INFO  Deduplicating compilation of louvain-community-detection-twitch-gamers from bsp client 'Metals 1.1.0' (since 3m 4.965s)
+2023.12.04 00:22:26 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:26 INFO  time: compiled louvain-community-detection-twitch-gamers in 85ms
+2023.12.04 00:22:28 WARN  Using indexes to guess the definition of sendCommunityInfo
+2023.12.04 00:22:30 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:30 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:22:31 WARN  Using indexes to guess the definition of mergeCommunityInfo
+2023.12.04 00:22:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:22:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 58ms
+2023.12.04 00:22:33 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:22:33 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:23:01 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:23:01 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:23:01 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:23:01 INFO  time: compiled louvain-community-detection-twitch-gamers in 85ms
+2023.12.04 00:24:37 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:37 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:24:38 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:38 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:24:38 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:38 INFO  time: compiled louvain-community-detection-twitch-gamers in 72ms
+2023.12.04 00:24:39 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:39 INFO  time: compiled louvain-community-detection-twitch-gamers in 64ms
+2023.12.04 00:24:41 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:41 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.04 00:24:41 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:41 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.2s
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.04 00:24:45 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:45 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:24:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:24:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:25:15 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:25:15 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:25:17 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:25:17 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:25:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:25:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:25:22 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:25:22 INFO  time: compiled louvain-community-detection-twitch-gamers in 67ms
+2023.12.04 00:26:06 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:26:06 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.16s
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.04 00:28:32 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:28:32 INFO  time: compiled louvain-community-detection-twitch-gamers in 86ms
+2023.12.04 00:28:43 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:28:43 INFO  time: compiled louvain-community-detection-twitch-gamers in 95ms
+2023.12.04 00:28:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:28:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:29:39 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:29:39 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:30:02 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:30:02 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.04 00:30:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:30:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 99ms
+2023.12.04 00:30:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:30:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 99ms
+2023.12.04 00:30:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:30:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 77ms
+Dec 04, 2023 12:30:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 725
+2023.12.04 00:30:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:30:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.04 00:30:18 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:30:18 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.65s
+2023.12.04 00:31:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:31:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.04 00:31:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:31:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.63s
+2023.12.04 00:31:58 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:31:58 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.66s
+2023.12.04 00:32:01 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:32:01 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.82s
+2023.12.04 00:34:03 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:34:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.34s
+2023.12.04 00:34:03 INFO  compiling louvain-community-detection-twitch-gamers (3 scala sources)
+2023.12.04 00:34:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.56s
+Dec 04, 2023 12:35:30 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 3310, count -1, length 4215
+2023.12.04 00:35:36 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:35:36 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.67s
+2023.12.04 00:40:55 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:40:55 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.2s
+2023.12.04 00:41:03 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:41:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.16s
+2023.12.04 00:41:10 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:41:10 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.2s
+2023.12.04 00:41:22 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:41:22 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.04 00:41:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:41:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:41:33 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:41:33 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.04 00:42:29 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:42:29 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+Dec 04, 2023 12:42:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1299
+Dec 04, 2023 12:43:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1347
+Exception in thread "pool-5-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-5-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.04 00:43:14 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:43:14 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.04 00:43:17 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:43:17 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.14s
+2023.12.04 00:43:18 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+Exception in thread "pool-5-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.04 00:43:18 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.16s
+Exception in thread "pool-5-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 04, 2023 12:43:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1453
+Exception in thread "pool-5-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 04, 2023 12:43:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1488
+Dec 04, 2023 12:43:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1558
+2023.12.04 00:43:55 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:43:55 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+Exception in thread "pool-5-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.04 00:44:04 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.04 00:44:04 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.77s

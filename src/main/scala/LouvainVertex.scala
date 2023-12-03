@@ -1,4 +1,4 @@
-class LouvainVertex extends Serializable{
+class LouvainVertex{
 
   var communityType = -1L
   var communityTotalDegree = 0L
