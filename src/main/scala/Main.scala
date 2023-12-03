@@ -38,5 +38,17 @@ object Main extends App {
       
     // Graph'ı oluşturma
     val graph = Graph(verticesRDD, edgesRDD)
+/*
+// Düğümleri (vertices) yazdırma
+println("Düğümler (Vertices):")
+graph.vertices.collect().foreach { case (id, vertex) =>
+  println(s"ID: $id, Vertex: $vertex")
+}
 
+// Kenarları (edges) yazdırma
+println("Kenarlar (Edges):")
+graph.edges.collect().foreach { edge =>
+  println(s"Kaynak: ${edge.srcId}, Hedef: ${edge.dstId}, Kenar: ${edge.attr}")
+}*/
+    Louvain.sayHello()
 }

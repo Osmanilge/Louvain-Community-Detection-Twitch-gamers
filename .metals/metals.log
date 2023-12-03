@@ -158,3 +158,20 @@ INFO: Unsupported notification method: $/setTrace
 2023.12.03 18:36:50 INFO  time: indexed workspace in 2.95s
 Dec 03, 2023 6:42:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.12.03 18:50:06 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 18:50:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 3.35s
+2023.12.03 19:04:20 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:04:37 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:04:37 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:04:37 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:04:38 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:04:38 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:04:38 WARN  no build target for: /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/Louvain.scala
+2023.12.03 19:05:34 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 19:05:34 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.48s
+2023.12.03 19:05:53 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 19:05:53 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.33s
+2023.12.03 19:06:05 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 19:06:05 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.31s
+2023.12.03 19:07:29 INFO  compiling louvain-community-detection-twitch-gamers (2 scala sources)
+2023.12.03 19:07:29 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.94s
