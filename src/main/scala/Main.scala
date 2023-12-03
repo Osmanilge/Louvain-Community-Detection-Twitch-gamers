@@ -9,7 +9,7 @@ object Main extends App {
     val sc = new SparkContext(sparkConf)
 
     //Read edges from the CSV file and parse them into Edge objects
-    val edgesRDD: RDD[Edge[Int]] = sc.textFile("/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/large_twitch_edges.csv")
+    val edgesRDD: RDD[Edge[Int]] = sc.textFile("src/large_twitch_edges.csv")
       .filter(line => !line.startsWith("numeric_id_1"))
       .map { line =>
         val parts = line.split(",")
