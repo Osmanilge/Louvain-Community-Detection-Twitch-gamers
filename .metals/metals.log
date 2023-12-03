@@ -1006,3 +1006,368 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
 2023.12.03 21:56:27 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.58s
 2023.12.03 21:58:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
 2023.12.03 21:58:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.92s
+2023.12.03 22:11:57 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:11:57 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.56s
+2023.12.03 22:12:13 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:96: error: unclosed comment
+  /*println("Kenarlar (Edges):")
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 22:12:14 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:96: error: unclosed comment
+  /*println("Kenarlar (Edges):")
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 22:12:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:12:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.2s
+2023.12.03 22:12:36 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:12:36 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 22:12:42 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:12:42 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.11s
+2023.12.03 22:12:46 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:12:46 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.62s
+2023.12.03 22:12:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:12:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.64s
+2023.12.03 22:19:47 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:19:47 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.32s
+2023.12.03 22:20:03 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:20:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.41s
+2023.12.03 22:20:16 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:20:16 INFO  time: compiled louvain-community-detection-twitch-gamers in 60ms
+2023.12.03 22:20:33 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:20:33 INFO  time: compiled louvain-community-detection-twitch-gamers in 80ms
+2023.12.03 22:20:40 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:20:40 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.36s
+2023.12.03 22:20:55 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:20:55 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.35s
+2023.12.03 22:21:12 WARN  Using indexes to guess the definition of nodeWeight
+2023.12.03 22:21:12 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:21:12 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.36s
+2023.12.03 22:21:43 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:21:43 INFO  Deduplicating compilation of louvain-community-detection-twitch-gamers from bsp client 'Metals 1.1.0' (since 3h 44m 55.924s)
+2023.12.03 22:21:43 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:21:43 INFO  time: compiled louvain-community-detection-twitch-gamers in 57ms
+2023.12.03 22:21:57 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:21:57 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.37s
+2023.12.03 22:22:20 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:22:20 INFO  time: compiled louvain-community-detection-twitch-gamers in 69ms
+Dec 03, 2023 10:22:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5798
+2023.12.03 22:22:25 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:22:25 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.37s
+2023.12.03 22:22:35 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:22:35 INFO  time: compiled louvain-community-detection-twitch-gamers in 52ms
+2023.12.03 22:22:40 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:22:40 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.37s
+2023.12.03 22:23:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:23:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.37s
+Dec 03, 2023 10:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6059
+2023.12.03 22:25:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:25:48 WARN  Using indexes to guess the definition of changed
+2023.12.03 22:25:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.13s
+2023.12.03 22:27:11 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:27:11 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 22:27:14 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:27:14 INFO  time: compiled louvain-community-detection-twitch-gamers in 94ms
+2023.12.03 22:27:31 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:27:31 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 22:27:33 WARN  Using indexes to guess the definition of changed
+2023.12.03 22:28:36 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:28:36 INFO  time: compiled louvain-community-detection-twitch-gamers in 93ms
+2023.12.03 22:28:39 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:28:39 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.69s
+2023.12.03 22:28:49 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:28:49 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.62s
+2023.12.03 22:29:04 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:106: error: unclosed comment
+  /*println("Kenarlar (Edges):")
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 22:29:08 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:29:08 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed comment
+    /*// Düğümleri (vertices) yazdırma
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 22:29:08 INFO  time: compiled louvain-community-detection-twitch-gamers in 69ms
+2023.12.03 22:29:08 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed comment
+    /*// Düğümleri (vertices) yazdırma
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 22:29:11 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:29:11 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.58s
+2023.12.03 22:29:36 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:29:36 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.6s
+2023.12.03 22:30:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:30:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.76s
+2023.12.03 22:30:54 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:30:54 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.6s
+2023.12.03 22:31:08 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:31:08 INFO  Deduplicating compilation of louvain-community-detection-twitch-gamers from bsp client 'Metals 1.1.0' (since 3h 54m 21.453s)
+2023.12.03 22:31:08 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:31:08 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.31s
+2023.12.03 22:32:08 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:32:08 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.79s
+2023.12.03 22:34:38 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:34:38 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.36s
+2023.12.03 22:37:30 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:37:30 INFO  time: compiled louvain-community-detection-twitch-gamers in 81ms
+2023.12.03 22:38:00 WARN  Using indexes to guess the definition of louvainBasedGraph
+2023.12.03 22:38:00 WARN  Using indexes to guess the definition of louvainBasedGraph
+2023.12.03 22:38:00 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:00 INFO  time: compiled louvain-community-detection-twitch-gamers in 67ms
+2023.12.03 22:38:01 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:01 INFO  time: compiled louvain-community-detection-twitch-gamers in 52ms
+2023.12.03 22:38:02 WARN  Using indexes to guess the definition of LouvainVertex
+2023.12.03 22:38:01 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:01 INFO  time: compiled louvain-community-detection-twitch-gamers in 24ms
+2023.12.03 22:38:02 WARN  Using indexes to guess the definition of Graph
+2023.12.03 22:38:03 WARN  Using indexes to guess the definition of Graph
+2023.12.03 22:38:03 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:03 INFO  time: compiled louvain-community-detection-twitch-gamers in 22ms
+2023.12.03 22:38:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 59ms
+2023.12.03 22:38:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 80ms
+2023.12.03 22:38:48 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:48 INFO  time: compiled louvain-community-detection-twitch-gamers in 37ms
+2023.12.03 22:38:50 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:38:50 INFO  time: compiled louvain-community-detection-twitch-gamers in 44ms
+2023.12.03 22:39:09 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:39:09 INFO  time: compiled louvain-community-detection-twitch-gamers in 73ms
+2023.12.03 22:39:20 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:39:20 INFO  time: compiled louvain-community-detection-twitch-gamers in 84ms
+2023.12.03 22:39:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:39:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 46ms
+2023.12.03 22:39:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:39:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 38ms
+2023.12.03 22:39:21 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:39:21 INFO  time: compiled louvain-community-detection-twitch-gamers in 53ms
+2023.12.03 22:39:30 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:39:30 WARN  Using indexes to guess the definition of degreeOfNode
+2023.12.03 22:39:30 WARN  Using indexes to guess the definition of LouvainVertex
+2023.12.03 22:39:30 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.59s
+Dec 03, 2023 10:39:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7668
+2023.12.03 22:40:19 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:40:19 INFO  time: compiled louvain-community-detection-twitch-gamers in 81ms
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:40:19 INFO  time: compiled louvain-community-detection-twitch-gamers in 40ms
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:19 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:20 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:40:20 INFO  time: compiled louvain-community-detection-twitch-gamers in 41ms
+2023.12.03 22:40:21 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:25 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:31 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:40:34 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:02 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:12 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:41:12 INFO  time: compiled louvain-community-detection-twitch-gamers in 73ms
+2023.12.03 22:41:12 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:13 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:41:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:13 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.1s
+2023.12.03 22:41:13 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:15 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:39 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:40 WARN  Could not load snapshot text for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+2023.12.03 22:41:42 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:41:42 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.55s
+2023.12.03 22:46:41 INFO  Shut down connection with build server.
+2023.12.03 22:46:41 INFO  Shut down connection with build server.
+2023.12.03 22:46:52 INFO  Started: Metals version 1.1.0 in folders '/home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers' for client Visual Studio Code 1.83.1.
+2023.12.03 22:46:52 INFO  Attempting to connect to the build server...
+2023.12.03 22:46:52 INFO  skipping build import with status 'Installed'
+2023.12.03 22:46:52 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.12.03 22:46:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.12.03 22:46:53 INFO  Attempting to connect to the build server...
+2023.12.03 22:46:53 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/osmanilge/.bloop/bloop.json
+2023.12.03 22:46:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/project/.metals/bsp.trace.json or /home/osmanilge/.cache/metals/bsp.trace.json
+2023.12.03 22:46:53 INFO  time: Connected to build server in 0.45s
+2023.12.03 22:46:53 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.03 22:46:55 INFO  no build target found for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/LouvainVertex.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.03 22:46:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.12.03 22:46:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.12.03 22:46:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.12.03 22:46:58 INFO  time: indexed workspace in 3.1s
+2023.12.03 22:47:41 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:47:41 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.12s
+2023.12.03 22:47:50 ERROR Failed to tokenize input for semantic tokens for /home/osmanilge/Desktop/Louvain-Community-Detection-Twitch-gamers/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:61: error: unclosed comment
+  /*println("Düğümler (Vertices):")
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.03 22:47:52 INFO  compiling louvain-community-detection-twitch-gamers (1 scala source)
+2023.12.03 22:47:52 INFO  time: compiled louvain-community-detection-twitch-gamers in 0.64s
