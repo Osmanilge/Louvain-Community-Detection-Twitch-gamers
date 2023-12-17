@@ -1,9 +1,9 @@
-class LouvainVertex{
+class LouvainVertex extends Serializable{
 
   var communityType = -1L
-  var communityTotalDegree = 0L
-  var communityInDegree = 0L  // self edges
-  var degreeOfNode = 0L;  //out degree
+  var communityTotalDegree = 0D
+  var communityInDegree = 0D  // self edges
+  var degreeOfNode = 0D;  //out degree
   var changed = false
    
   override def toString(): String = {

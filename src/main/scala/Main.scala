@@ -7,16 +7,16 @@ import scala.reflect.ClassTag
 import java.io.PrintWriter
 import org.apache.spark.broadcast.Broadcast
 object Main{
-  def loadTheGraph(sc: SparkContext): Graph[(Int, Int, Long, String, String, Long, Int, String, Int), Long] = {
+  def loadTheGraph(sc: SparkContext): Graph[(Int, Int, Long, String, String, Long, Int, String, Int), Double] = {
     //Read edges from the CSV file and parse them into Edge objects
-    val edgesRDD: RDD[Edge[Long]] = sc.textFile("src/large_twitch_edges.csv")
+    val edgesRDD: RDD[Edge[Double]] = sc.textFile("src/sampleEdges.csv")
       .filter(line => !line.startsWith("numeric_id_1"))
       .map { line =>
         val parts = line.split(",")
         Edge(parts(0).toLong, parts(1).toLong, 1)
       }
 
-    val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("src/large_twitch_features.csv")
+    val verticesRDD: RDD[(VertexId, (Int, Int, Long, String, String, Long, Int, String, Int))] = sc.textFile("src/sampleFeatures.csv")
       .filter(line => !line.startsWith("views"))
       .map { line =>
         val parts = line.split(",")
@@ -59,152 +59,58 @@ object Main{
       println(s"Kaynak: ${edge.srcId}, Hedef: ${edge.dstId}, Kenar: ${edge.attr}")
     }*/
 
-    val louvainBasedGraph = Louvain.generateLouvainGraph(graph)
+    var louvainBasedGraph = Louvain.generateLouvainGraph(graph)
 
     var minProgress = 1//parameters
+    var progressCounter = 1//parameters
 
-    val louvainBasedGraphCached = louvainBasedGraph.cache()
+    /*// label each vertex with its best community choice at this level of compression
+	  val (currentQ,currentGraph,passes) = Louvain.louvain(sc, louvainBasedGraph,minProgress,progressCounter)
+	  louvainBasedGraph.unpersistVertices(blocking=false)
+	  louvainBasedGraph=currentGraph*/
 
-    val nodeDegrees = louvainBasedGraphCached.aggregateMessages[(Long, Long)](
-    triplet => {
-      // İç derece: Kendi düğümün kenar sayısı
-      triplet.sendToSrc((1L, 0L))
-      triplet.sendToDst((0L, 1L))
-    },
-    // İç ve dış dereceleri toplama işlemi
-    (a, b) => (a._1 + b._1, a._2 + b._2)
-    )
-    val nodeIODegree: RDD[(Long, Long)] = nodeDegrees.map { case (vertexId, (innerDegree, outerDegree)) => (vertexId, innerDegree + outerDegree) }
-
-    val m: Long = nodeIODegree.map { case (vertexId, degree) => degree }.sum().toLong
-    var mBroadcasted = sc.broadcast(m)
-    println(s"Toplam Edge Sayısı: $m")
-
-
-    var communityRDD = louvainBasedGraphCached.aggregateMessages(sendCommunityInfo, mergeCommunityInfo).cache()
-    var activeMessages = communityRDD.count() // materializes the graph
-
-    var updated = 0L - minProgress
-    var even = false  
-    var count = 0
-    val maxIter = 100000 
-    var stop = 0
-    var updatedLastPhase = 0L
-
-    do{
-
-    }while(true)
-
-  }
-
-
-
-  def louvainVertJoin(louvainGraph: Graph[LouvainVertex, Long], msgRDD: VertexRDD[Map[(Long, Long), Long]], m: Broadcast[Long], even: Boolean) = {
-
-    // innerJoin[U, VD2](other: RDD[(VertexId, U)])(f: (VertexId, VD, U) => VD2): VertexRDD[VD2]
-    louvainGraph.vertices.innerJoin(msgRDD)((vid, louvainVertex, communityMessages) => {
-
-      var bestCommunity = louvainVertex.communityType
-      val startingCommunityId = bestCommunity
-      var maxDeltaQ = BigDecimal(0.0);
-      var bestSigmaTot = 0L
-
-      // VertexRDD[scala.collection.immutable.Map[(Long, Long),Long]]
-      // e.g. (1,Map((3,10) -> 2, (6,4) -> 2, (2,8) -> 2, (4,8) -> 2, (5,8) -> 2))
-      // e.g. communityId:3, sigmaTotal:10, communityEdgeWeight:2
-      communityMessages.foreach({ case ((communityId, sigmaTotal), communityEdgeWeight) =>
-        val deltaQ = q(
-          startingCommunityId,
-          communityId,
-          sigmaTotal,
-          communityEdgeWeight,
-          louvainVertex.degreeOfNode,
-          louvainVertex.communityInDegree,
-          m.value)
-
-        //println(" communtiy: "+communityId+" sigma:"+sigmaTotal+"
-        //edgeweight:"+communityEdgeWeight+" q:"+deltaQ)
-        if (deltaQ > maxDeltaQ || (deltaQ > 0 && (deltaQ == maxDeltaQ &&
-          communityId > bestCommunity))) {
-          maxDeltaQ = deltaQ
-          bestCommunity = communityId
-          bestSigmaTot = sigmaTotal
-        }
-      })
-
-      // only allow changes from low to high communties on even cyces and
-      // high to low on odd cycles
-      if (louvainVertex.communityType != bestCommunity && ((even &&
-        louvainVertex.communityType > bestCommunity) || (!even &&
-        louvainVertex.communityType < bestCommunity))) {
-        //println("  "+vid+" SWITCHED from "+vdata.community+" to "+bestCommunity)
-        louvainVertex.communityType = bestCommunity
-        louvainVertex.communityType = bestSigmaTot
-        louvainVertex.changed = true
-      }
-      else {
-        louvainVertex.changed = false
-      }
-
-      if (louvainVertex == null)
-        println("vdata is null: " + vid)
-
-      louvainVertex
-    })
-  }
-
-  /**
-    * Returns the change in modularity that would result from a vertex
-    * moving to a specified community.
-    */
-  def q(
-         currCommunityId: Long,
-         testCommunityId: Long,
-         testSigmaTot: Long,
-         edgeWeightInCommunity: Long,
-         nodeWeight: Long,
-         internalWeight: Long,
-         totalEdgeWeight: Long): BigDecimal = {
-
-    val isCurrentCommunity = currCommunityId.equals(testCommunityId)
-    val M = BigDecimal(totalEdgeWeight)
-    val k_i_in_L = if (isCurrentCommunity) edgeWeightInCommunity + internalWeight else edgeWeightInCommunity
-    val k_i_in = BigDecimal(k_i_in_L)
-    val k_i = BigDecimal(nodeWeight + internalWeight)
-    val sigma_tot = if (isCurrentCommunity) BigDecimal(testSigmaTot) - k_i else BigDecimal(testSigmaTot)
-
-    var deltaQ = BigDecimal(0.0)
-
-    if (!(isCurrentCommunity && sigma_tot.equals(BigDecimal.valueOf(0.0)))) {
-      deltaQ = k_i_in - (k_i * sigma_tot / M)
-      //println(s"      $deltaQ = $k_i_in - ( $k_i * $sigma_tot / $M")
-    }
-
-    deltaQ
-  }
-
+    var level = -1  // number of times the graph has been compressed
+    var q = -1.0    // current modularity value
+    var halt = false
+    do {
+	  level += 1
+	  println(s"\nStarting Louvain level $level")
+	  
+	  // label each vertex with its best community choice at this level of compression
+	  val (currentQ,currentGraph,passes) = Louvain.louvain(sc, louvainBasedGraph,minProgress,progressCounter)
+	  louvainBasedGraph.unpersistVertices(blocking=false)
+	  louvainBasedGraph=currentGraph
+	  
+	  saveLevel(sc,level,currentQ,louvainBasedGraph)
+	  
+	  // If modularity was increased by at least 0.001 compress the graph and repeat
+	  // halt immediately if the community labeling took less than 3 passes
+	  //println(s"if ($passes > 2 && $currentQ > $q + 0.001 )")
+	  if (passes > 2 && currentQ > q + 0.001 ){ 
+	    q = currentQ
+	    louvainBasedGraph = Louvain.compressGraph(louvainBasedGraph)
+	  }
+	  else {
+	    halt = true
+	  }
+	 
+	}while ( !halt )
+	//finalSave(sc,level,q,louvainGraph)  
   
-  private def sendCommunityInfo(edgeTrip: EdgeContext[LouvainVertex, Long, Map[(Long, Long), Long]]) = {
-    val m1 = (edgeTrip.dstId,Map((edgeTrip.srcAttr.communityType,edgeTrip.srcAttr.communityTotalDegree)->edgeTrip.attr))
-	  val m2 = (edgeTrip.srcId,Map((edgeTrip.dstAttr.communityType,edgeTrip.dstAttr.communityTotalDegree)->edgeTrip.attr))
-	  Iterator(m1, m2)    
+    
   }
-  
-  
-  
-  /**
-   *  Merge neighborhood community data into a single message for each vertex
-   */
-  private def mergeCommunityInfo(m1:Map[(Long,Long),Long],m2:Map[(Long,Long),Long]) ={
-    val newMap = scala.collection.mutable.HashMap[(Long,Long),Long]()
-    m1.foreach({case (k,v)=>
-      if (newMap.contains(k)) newMap(k) = newMap(k) + v
-      else newMap(k) = v
-    })
-    m2.foreach({case (k,v)=>
-      if (newMap.contains(k)) newMap(k) = newMap(k) + v
-      else newMap(k) = v
-    })
-    newMap.toMap
+  def saveLevel(sc:SparkContext,level:Int,q:Double,graph:Graph[LouvainVertex,Double]) = {
+    var qValues = Array[(Int,Double)]()
+    val outputdir = "src/"
+	  graph.vertices.saveAsTextFile(outputdir+"/level_"+level+"_vertices")
+      graph.edges.saveAsTextFile(outputdir+"/level_"+level+"_edges")
+      //graph.vertices.map( {case (id,v) => ""+id+","+v.internalWeight+","+v.community }).saveAsTextFile(outputdir+"/level_"+level+"_vertices")
+      //graph.edges.mapValues({case e=>""+e.srcId+","+e.dstId+","+e.attr}).saveAsTextFile(outputdir+"/level_"+level+"_edges")  
+      qValues = qValues :+ ((level,q))
+      println(s"qValue: $q")
+        
+      // overwrite the q values at each level
+      sc.parallelize(qValues, 1).saveAsTextFile(outputdir+"/qvalues")
   }
 }
+
